@@ -1,0 +1,373 @@
+/*********** MAIN PAGE **********/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background-color: #78E874;
+    font-family: "League Spartan";
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: -2px 5px rgba(29, 10, 10, 0.8);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link-container{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    color: black;
+    font-size: xx-large;
+    margin: 0px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link:hover {
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.btncontact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.btn-contact{
+    background-color: #78E874;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*************************************************************************************/
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.left-side{
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.user-greeting{
+    font-size: 128px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subtext{
+    font-size: 24px;
+    display: inline-block;
+    line-height: 130%;
+}
+
+.touch-btn{
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 40px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.touch-btn:hover{
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.formal-picture{
+    float: right;
+    display: block;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+/*************************************************************************************/
+
+
+.education-title{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.education-section{
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.school-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.course{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.year{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.school-container{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+
+/*************************************************************************************/
+
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.about-image{
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    margin-right: 100px;
+}
+
+.about-description{
+    width: 525px;
+    padding: 50px;
+}
+
+.about-title{
+    margin-top: 0;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.about-paragraph{
+    font-size: 24px;
+    line-height: 130%;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+.projects-btn{
+    margin-top: 50px;
+    width: 180px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "League Spartan";
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.projects-btn:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+
+/*************************************************************************************/
+
+
+.contact-section{
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.contact-title{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.contact-subtext{
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.socmed-container{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    margin-right: 100px;
+    width: 550px;
+    height: 120px;
+    display: inline-block;
+}
+
+.socmed-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-name{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-link{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-decoration: underline;
+}
+
+.contact-email{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+
+/*************************************************************************************/
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    padding: 10px;
+
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.quote{
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.copyright-text{
+    font-size: 1.5rem;
+}
+
+.socials-section{
+    margin-right: 25px;
+}
+
+.fa-brands{
+    margin: 0px 25px;
+}
+
+/********** MESSAGE FORM **********/
+
+.opening-text{
+    margin-top: 180px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.msg-subtext{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.textbox{  
+    width: 375px;
+    font-family: "League Spartan";
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    font-family: "League Spartan";
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn-submit{
+    width: 160px;
+    margin: 50px 0px;
+    font-family: 'League Spartan';
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
